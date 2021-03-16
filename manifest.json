@@ -1,0 +1,21 @@
+{
+    "ManifestVersion": 2,
+    "authorname": "Courd",
+    "name": "spawnitems",
+    "DisplayName": "Spawn_Items",
+    "version_number": "1.0.0",
+    "Licence": "",
+    "website_url": "https://github.com/coolcourd/spawn-items",
+    "description": "press F1-f6 to spawn items",
+    "GameVersion": "N/A",
+    "dependencies": [ "tristanmcpherson-R2API-2.5.0" ],
+    "OptionalDependencies": [],
+    "Incompatibilities": [],
+    "NetworkMode": "both",
+    "PackageType": "mod",
+    "InstallMode": "managed",
+    "Loaders": [
+        "bepinex"
+    ],
+    "ExtraData": {}
+}
