@@ -38,7 +38,7 @@ namespace SpawnItems
         public void Update()
         {
             //This if statement checks if the player has currently pressed F1.
-            if (Input.GetKeyDown(KeyCode.F1))
+            if (Input.GetKeyDown(KeyCode.Keypad3))
             {
                 //Get the player body to use a position:	
                 var transform = PlayerCharacterMasterController.instances[0].master.GetBodyObject().transform;
@@ -51,7 +51,7 @@ namespace SpawnItems
             }
 
             //This if statement checks if the player has currently pressed F2.
-            if (Input.GetKeyDown(KeyCode.F2))
+            if (Input.GetKeyDown(KeyCode.Keypad4))
             {
                 //Get the player body to use a position:	
                 var transform = PlayerCharacterMasterController.instances[0].master.GetBodyObject().transform;
@@ -64,7 +64,7 @@ namespace SpawnItems
             }
 
             //This if statement checks if the player has currently pressed F3.
-            if (Input.GetKeyDown(KeyCode.F3))
+            if (Input.GetKeyDown(KeyCode.Keypad5))
             {
                 //Get the player body to use a position:	
                 var transform = PlayerCharacterMasterController.instances[0].master.GetBodyObject().transform;
@@ -77,7 +77,7 @@ namespace SpawnItems
             }
 
             //This if statement checks if the player has currently pressed F4.
-            if (Input.GetKeyDown(KeyCode.F4))
+            if (Input.GetKeyDown(KeyCode.Keypad6))
             {
                 //Get the player body to use a position:	
                 var transform = PlayerCharacterMasterController.instances[0].master.GetBodyObject().transform;
@@ -90,7 +90,7 @@ namespace SpawnItems
             }
 
             //This if statement checks if the player has currently pressed F5.
-            if (Input.GetKeyDown(KeyCode.F5))
+            if (Input.GetKeyDown(KeyCode.Keypad7))
             {
                 //Get the player body to use a position:	
                 var transform = PlayerCharacterMasterController.instances[0].master.GetBodyObject().transform;
@@ -103,7 +103,7 @@ namespace SpawnItems
             }
 
             //This if statement checks if the player has currently pressed F6.
-            if (Input.GetKeyDown(KeyCode.F6))
+            if (Input.GetKeyDown(KeyCode.Keypad8))
             {
                 //Get the player body to use a position:	
                 var transform = PlayerCharacterMasterController.instances[0].master.GetBodyObject().transform;
@@ -114,7 +114,7 @@ namespace SpawnItems
                 var nextItem = Run.instance.treasureRng.RangeInt(0, dropList.Count);
                 PickupDropletController.CreatePickupDroplet(dropList[nextItem], transform.position, transform.forward * 20f);
             }
-            if (Input.GetKeyDown(KeyCode.F7))
+            if (Input.GetKeyDown(KeyCode.Keypad9))
             {
                 //Get the player body to use a position:	
                 var transform = PlayerCharacterMasterController.instances[0].master.GetBodyObject().transform;
